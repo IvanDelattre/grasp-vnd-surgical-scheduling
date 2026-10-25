@@ -1,0 +1,2 @@
+# O programa usa somente a biblioteca padrão; pytest é usado nos testes.
+pytest>=8.0,<10

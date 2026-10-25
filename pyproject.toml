@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grasp-vnd-surgical-scheduling"
+version = "0.1.0"
+description = "GRASP e pós-otimização VND para cirurgias eletivas"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+grasp-vnd = "grasp_vnd.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["grasp_vnd*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

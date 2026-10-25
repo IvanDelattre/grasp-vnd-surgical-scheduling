@@ -1,0 +1,4 @@
+# Dependências opcionais para figuras científicas; não são usadas nos algoritmos.
+matplotlib>=3.8,<4
+# Base IANA usada pelo relatório no Windows para America/Sao_Paulo.
+tzdata>=2024.1

@@ -1,0 +1,47 @@
+{
+  "testes_antes": "85 passed in 2.14s",
+  "algoritmos_sha256": {
+    "avaliacao.py": "a943eb4404406bb6de1a4b78e38ea4196e791172a353859098ac3e8f06f787c5",
+    "construcao.py": "720ecdf352d1b81eeed6d8bb1f59ba153074a094819abd3f3f1b085fbb8c35e4",
+    "busca_local.py": "cd66003e01744566e8208fac57ad13bd162da546095b812fd0708fdd7cbcb425",
+    "grasp.py": "27a18995746638bf15a8f4134d7b50e689eae9e47cf457c884dbdbf59dac7d1b",
+    "vnd.py": "2cc2781bbe4aaadd4db8ff45a686fe2c33a96fe3059229a4a6d209b0591ccde6",
+    "comparacao.py": "0d62a72382cb76b34718fdb0f44fd9c2da988ee6a591ff9026a499e689653b15",
+    "problema.py": "ad2ab5ffa11971432ec37a82710f95790fa68e3c30d7776adc82020c86109a80"
+  },
+  "piloto_sha256": {
+    "resultados/piloto/detalhado.csv": "0c0f8d395f99861b010a6de90b676039a72ee121efa6188f22d0935e18b23a78",
+    "resultados/piloto/execucoes/00-seed0.json": "91091bc34c798dc5bcc8f3a36c22e6c7e4f52f6f8e32a6cdcaed24bddf23ca11",
+    "resultados/piloto/execucoes/00-seed1.json": "5a3ac71b8fa18b1662daab8af7b848c7181eb93243105aee01820c8b456ff178",
+    "resultados/piloto/execucoes/00-seed2.json": "08e59f1e98f869ff14daf3a2be21bcaecfb6c901d3e451290eb40f6236e0e8e2",
+    "resultados/piloto/execucoes/01-seed0.json": "3b4a5aa0e083701b10b065ff1df46f4e36b554cb317a25db742cf22a18601c02",
+    "resultados/piloto/execucoes/01-seed1.json": "254b18455d0a35ccb15b92a5356b73b1dd7b1151042139809edeab497f0f2607",
+    "resultados/piloto/execucoes/01-seed2.json": "e82e865096164ee132b73b40cad1a5158b9370c34460f9d82ec0d7a93907dc09",
+    "resultados/piloto/execucoes/02-seed0.json": "ef2bcc4b6432a8da2d3a227aa8edcba4fdd70e45809cb2f5c28a672e8911e647",
+    "resultados/piloto/execucoes/02-seed1.json": "06f4a51ef1390f4ecf29499ab1817cb44df603878478edaf99a84b9bd1d4b2c9",
+    "resultados/piloto/execucoes/02-seed2.json": "bd0a8fbe9a29a82f8167373c3d0aa09a3803d2ba971c8c572580e47d99976d09",
+    "resultados/piloto/execucoes/03-seed0.json": "eb1cc35660dc879f30aad3c826a20b08bc4450a88cbb851fa254b56aaecfa99d",
+    "resultados/piloto/execucoes/03-seed1.json": "88db9db4aa1fad3796198382f15f50069c9e908e69964c5882506ad8b2b24555",
+    "resultados/piloto/execucoes/03-seed2.json": "0ad5194bcc02fb94407974c5487708e89443a04e363f7e4f09801e26de7443c8",
+    "resultados/piloto/execucoes/04-seed0.json": "165efd638dfe42b4f4960ffa61b6fc72a986abe95680590a909a32e91f0df751",
+    "resultados/piloto/execucoes/04-seed1.json": "ba9aa67af41d34798803b73c8dd6a2fee6f1cb315225e733f7526264f8bbae7f",
+    "resultados/piloto/execucoes/04-seed2.json": "76a8776ffac974a6819fa66b7caae9accb0a6dd62d9e29c20261517529e42ee7",
+    "resultados/piloto/execucoes/05-seed0.json": "114deeda3178ac453607a0e042f031d80ffb4b812d3158776f9bb2430f677973",
+    "resultados/piloto/execucoes/05-seed1.json": "c2bb0fd323ba0e3022896970b76a851c48162ed6082c574dbd6cc5d08236b928",
+    "resultados/piloto/execucoes/05-seed2.json": "252064fe69ee170a6bb9d0dcbcacfcd2ca2e88642820eab0945c1ece5125f2c2",
+    "resultados/piloto/execucoes/06-seed0.json": "c2eb5760d320586e0fa4c5ff486cc4d429d75d39033c9ce173e2668faa47224a",
+    "resultados/piloto/execucoes/06-seed1.json": "19b31c5aedd4f1b5f72188bd3b6c1eff1c9395c88ef26b452a2a56636d5f62b0",
+    "resultados/piloto/execucoes/06-seed2.json": "4d9b6436b6c73f36ce72d9bd01ede7b0fdfdfb75eccb8d585f1bad001f419546",
+    "resultados/piloto/execucoes/07-seed0.json": "c550879ad27c3e1a6d775111dee78800891ef5bc1ceb4a3e7204df8869abad88",
+    "resultados/piloto/execucoes/07-seed1.json": "1e903ceb9db347fb252136dc1faab300cd74fbdab7e66e61d4318bc94d845045",
+    "resultados/piloto/execucoes/07-seed2.json": "68872883277a785a38e7f6060b6ffe2843127f88ed23e8543ca7667b2b4187a2",
+    "resultados/piloto/manifesto.json": "91b9b768a3388ff48d1b318258747d6f680ed70addd9450e2bb8af85b38f4fa9",
+    "resultados/piloto/projecao_principal.csv": "b7531894bad9d5e8fb651fc22da7b0b90c4397264be30cadf3737bb87917f682",
+    "resultados/piloto/projecao_principal.json": "2541bec305692aaf33187e01c4e8a18a89f5a3f2e4f85dbe7b4e2b0985e0b17d",
+    "resultados/piloto/resumo.csv": "18823263d28de14935d0efdb4c7e723019d122195459891ae41c3711809b2364"
+  },
+  "documentacao_piloto_sha256": {
+    "docs/PILOTO_EXPERIMENTAL.md": "4b4c8e48e46dda6132c6373a53cd178d8bafc5f2820f5cdae03e76431bb7ade3",
+    "docs/VALIDACAO.md": "9751330e879c0e8f9a29c5561ea2709944535702b4433fda55ad7aaf8514be2a"
+  }
+}

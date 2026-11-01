@@ -1,0 +1,722 @@
+{
+  "inicio_utc": "2026-10-25T15:34:30.774425+00:00",
+  "status": "concluido",
+  "iteracoes": 1000,
+  "alpha": 0.5,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "limite_execucao_s": 300.0,
+  "limite_total_s": 7200.0,
+  "execucoes_planejadas": 80,
+  "python": "3.12.6",
+  "plataforma": "Windows-11-10.0.26200-SP0",
+  "processador": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "cpu_logicas": 12,
+  "fontes_algoritmos_sha256": {
+    "avaliacao.py": "a943eb4404406bb6de1a4b78e38ea4196e791172a353859098ac3e8f06f787c5",
+    "construcao.py": "720ecdf352d1b81eeed6d8bb1f59ba153074a094819abd3f3f1b085fbb8c35e4",
+    "busca_local.py": "cd66003e01744566e8208fac57ad13bd162da546095b812fd0708fdd7cbcb425",
+    "grasp.py": "27a18995746638bf15a8f4134d7b50e689eae9e47cf457c884dbdbf59dac7d1b",
+    "vnd.py": "2cc2781bbe4aaadd4db8ff45a686fe2c33a96fe3059229a4a6d209b0591ccde6",
+    "comparacao.py": "0d62a72382cb76b34718fdb0f44fd9c2da988ee6a591ff9026a499e689653b15",
+    "problema.py": "ad2ab5ffa11971432ec37a82710f95790fa68e3c30d7776adc82020c86109a80"
+  },
+  "instancias": [
+    {
+      "arquivo": "instancias/sinteticas/SINTETICA-11-S3-sequencia-seed2020.json",
+      "identificador": "SINTETICA-11-S3-sequencia-seed2020",
+      "sha256_arquivo": "d4b954f1bd28832b91fb0240950eebfb9722df59abca7599167717573fba9414"
+    },
+    {
+      "arquivo": "instancias/sinteticas/SINTETICA-11-S3-simples-seed2020.json",
+      "identificador": "SINTETICA-11-S3-simples-seed2020",
+      "sha256_arquivo": "89c9d3f8f51a07be7fb62f7b63b50ad244fe29720db9e4b692cfc92f8c0ee451"
+    },
+    {
+      "arquivo": "instancias/sinteticas/SINTETICA-50-S4-sequencia-seed2022.json",
+      "identificador": "SINTETICA-50-S4-sequencia-seed2022",
+      "sha256_arquivo": "f78945f07e4fd6e817be033bf78dec6c57d096b3a44f3fc25f06a3f8c4ed48eb"
+    },
+    {
+      "arquivo": "instancias/sinteticas/SINTETICA-50-S4-simples-seed2022.json",
+      "identificador": "SINTETICA-50-S4-simples-seed2022",
+      "sha256_arquivo": "0e9c8e87d74d7218cbe996701237ed2cdc71091e9e61463760ebdca81d363e8d"
+    },
+    {
+      "arquivo": "instancias/sinteticas/SINTETICA-100-S5-sequencia-seed2024.json",
+      "identificador": "SINTETICA-100-S5-sequencia-seed2024",
+      "sha256_arquivo": "a2fd6f9c44026a6723585b7eb851a40c64fee5656f6aeadf428d39eaf26f5d2d"
+    },
+    {
+      "arquivo": "instancias/sinteticas/SINTETICA-100-S5-simples-seed2024.json",
+      "identificador": "SINTETICA-100-S5-simples-seed2024",
+      "sha256_arquivo": "de58aef10038c6dd8c45609ecba15c08a9e3eb3f0329945902a353e1af6cfae0"
+    },
+    {
+      "arquivo": "instancias/sinteticas/SINTETICA-200-S10-sequencia-seed2026.json",
+      "identificador": "SINTETICA-200-S10-sequencia-seed2026",
+      "sha256_arquivo": "e4efdd79312c474900da5447565b6cbdf7f17cd80a5d0fd28d81bfee8785622e"
+    },
+    {
+      "arquivo": "instancias/sinteticas/SINTETICA-200-S10-simples-seed2026.json",
+      "identificador": "SINTETICA-200-S10-simples-seed2026",
+      "sha256_arquivo": "27e090908c12770af6d83f3f72cb378d10626e12c98ff852b3e127d7bec345fb"
+    }
+  ],
+  "execucoes": [
+    {
+      "instancia": "SINTETICA-11-S3-sequencia-seed2020",
+      "seed": 0,
+      "inicio_utc": "2026-10-25T15:34:31.105198+00:00",
+      "status": "concluida",
+      "json": "execucoes/00-seed0.json",
+      "tempo_parede_s": 0.7007510000839829
+    },
+    {
+      "instancia": "SINTETICA-11-S3-sequencia-seed2020",
+      "seed": 1,
+      "inicio_utc": "2026-10-25T15:34:31.842840+00:00",
+      "status": "concluida",
+      "json": "execucoes/00-seed1.json",
+      "tempo_parede_s": 0.7307178000919521
+    },
+    {
+      "instancia": "SINTETICA-11-S3-sequencia-seed2020",
+      "seed": 2,
+      "inicio_utc": "2026-10-25T15:34:32.610061+00:00",
+      "status": "concluida",
+      "json": "execucoes/00-seed2.json",
+      "tempo_parede_s": 0.7390989999985322
+    },
+    {
+      "instancia": "SINTETICA-11-S3-sequencia-seed2020",
+      "seed": 3,
+      "inicio_utc": "2026-10-25T15:34:33.386528+00:00",
+      "status": "concluida",
+      "json": "execucoes/00-seed3.json",
+      "tempo_parede_s": 0.714800100075081
+    },
+    {
+      "instancia": "SINTETICA-11-S3-sequencia-seed2020",
+      "seed": 4,
+      "inicio_utc": "2026-10-25T15:34:34.140020+00:00",
+      "status": "concluida",
+      "json": "execucoes/00-seed4.json",
+      "tempo_parede_s": 0.7719680999871343
+    },
+    {
+      "instancia": "SINTETICA-11-S3-sequencia-seed2020",
+      "seed": 5,
+      "inicio_utc": "2026-10-25T15:34:34.955744+00:00",
+      "status": "concluida",
+      "json": "execucoes/00-seed5.json",
+      "tempo_parede_s": 0.7350212000310421
+    },
+    {
+      "instancia": "SINTETICA-11-S3-sequencia-seed2020",
+      "seed": 6,
+      "inicio_utc": "2026-10-25T15:34:35.731483+00:00",
+      "status": "concluida",
+      "json": "execucoes/00-seed6.json",
+      "tempo_parede_s": 0.7583218000363559
+    },
+    {
+      "instancia": "SINTETICA-11-S3-sequencia-seed2020",
+      "seed": 7,
+      "inicio_utc": "2026-10-25T15:34:36.529653+00:00",
+      "status": "concluida",
+      "json": "execucoes/00-seed7.json",
+      "tempo_parede_s": 0.7030514000216499
+    },
+    {
+      "instancia": "SINTETICA-11-S3-sequencia-seed2020",
+      "seed": 8,
+      "inicio_utc": "2026-10-25T15:34:37.271043+00:00",
+      "status": "concluida",
+      "json": "execucoes/00-seed8.json",
+      "tempo_parede_s": 0.7658874000189826
+    },
+    {
+      "instancia": "SINTETICA-11-S3-sequencia-seed2020",
+      "seed": 9,
+      "inicio_utc": "2026-10-25T15:34:38.075248+00:00",
+      "status": "concluida",
+      "json": "execucoes/00-seed9.json",
+      "tempo_parede_s": 0.7129665000829846
+    },
+    {
+      "instancia": "SINTETICA-11-S3-simples-seed2020",
+      "seed": 0,
+      "inicio_utc": "2026-10-25T15:34:38.828594+00:00",
+      "status": "concluida",
+      "json": "execucoes/01-seed0.json",
+      "tempo_parede_s": 0.7341869999654591
+    },
+    {
+      "instancia": "SINTETICA-11-S3-simples-seed2020",
+      "seed": 1,
+      "inicio_utc": "2026-10-25T15:34:39.599398+00:00",
+      "status": "concluida",
+      "json": "execucoes/01-seed1.json",
+      "tempo_parede_s": 0.7147261999780312
+    },
+    {
+      "instancia": "SINTETICA-11-S3-simples-seed2020",
+      "seed": 2,
+      "inicio_utc": "2026-10-25T15:34:40.351751+00:00",
+      "status": "concluida",
+      "json": "execucoes/01-seed2.json",
+      "tempo_parede_s": 0.769247499993071
+    },
+    {
+      "instancia": "SINTETICA-11-S3-simples-seed2020",
+      "seed": 3,
+      "inicio_utc": "2026-10-25T15:34:41.163570+00:00",
+      "status": "concluida",
+      "json": "execucoes/01-seed3.json",
+      "tempo_parede_s": 0.7604404999874532
+    },
+    {
+      "instancia": "SINTETICA-11-S3-simples-seed2020",
+      "seed": 4,
+      "inicio_utc": "2026-10-25T15:34:41.964749+00:00",
+      "status": "concluida",
+      "json": "execucoes/01-seed4.json",
+      "tempo_parede_s": 0.7450803000247106
+    },
+    {
+      "instancia": "SINTETICA-11-S3-simples-seed2020",
+      "seed": 5,
+      "inicio_utc": "2026-10-25T15:34:42.747614+00:00",
+      "status": "concluida",
+      "json": "execucoes/01-seed5.json",
+      "tempo_parede_s": 0.7145369999343529
+    },
+    {
+      "instancia": "SINTETICA-11-S3-simples-seed2020",
+      "seed": 6,
+      "inicio_utc": "2026-10-25T15:34:43.517066+00:00",
+      "status": "concluida",
+      "json": "execucoes/01-seed6.json",
+      "tempo_parede_s": 0.7654083000961691
+    },
+    {
+      "instancia": "SINTETICA-11-S3-simples-seed2020",
+      "seed": 7,
+      "inicio_utc": "2026-10-25T15:34:44.320671+00:00",
+      "status": "concluida",
+      "json": "execucoes/01-seed7.json",
+      "tempo_parede_s": 0.7262985000852495
+    },
+    {
+      "instancia": "SINTETICA-11-S3-simples-seed2020",
+      "seed": 8,
+      "inicio_utc": "2026-10-25T15:34:45.087398+00:00",
+      "status": "concluida",
+      "json": "execucoes/01-seed8.json",
+      "tempo_parede_s": 0.7300225000362843
+    },
+    {
+      "instancia": "SINTETICA-11-S3-simples-seed2020",
+      "seed": 9,
+      "inicio_utc": "2026-10-25T15:34:45.855956+00:00",
+      "status": "concluida",
+      "json": "execucoes/01-seed9.json",
+      "tempo_parede_s": 0.7432951000519097
+    },
+    {
+      "instancia": "SINTETICA-50-S4-sequencia-seed2022",
+      "seed": 0,
+      "inicio_utc": "2026-10-25T15:34:46.637823+00:00",
+      "status": "concluida",
+      "json": "execucoes/02-seed0.json",
+      "tempo_parede_s": 8.981444500037469
+    },
+    {
+      "instancia": "SINTETICA-50-S4-sequencia-seed2022",
+      "seed": 1,
+      "inicio_utc": "2026-10-25T15:34:55.658766+00:00",
+      "status": "concluida",
+      "json": "execucoes/02-seed1.json",
+      "tempo_parede_s": 9.503072999999858
+    },
+    {
+      "instancia": "SINTETICA-50-S4-sequencia-seed2022",
+      "seed": 2,
+      "inicio_utc": "2026-10-25T15:35:05.205713+00:00",
+      "status": "concluida",
+      "json": "execucoes/02-seed2.json",
+      "tempo_parede_s": 9.237718599964865
+    },
+    {
+      "instancia": "SINTETICA-50-S4-sequencia-seed2022",
+      "seed": 3,
+      "inicio_utc": "2026-10-25T15:35:14.493734+00:00",
+      "status": "concluida",
+      "json": "execucoes/02-seed3.json",
+      "tempo_parede_s": 9.19960099994205
+    },
+    {
+      "instancia": "SINTETICA-50-S4-sequencia-seed2022",
+      "seed": 4,
+      "inicio_utc": "2026-10-25T15:35:23.744651+00:00",
+      "status": "concluida",
+      "json": "execucoes/02-seed4.json",
+      "tempo_parede_s": 9.203937000012957
+    },
+    {
+      "instancia": "SINTETICA-50-S4-sequencia-seed2022",
+      "seed": 5,
+      "inicio_utc": "2026-10-25T15:35:32.990620+00:00",
+      "status": "concluida",
+      "json": "execucoes/02-seed5.json",
+      "tempo_parede_s": 9.065598800079897
+    },
+    {
+      "instancia": "SINTETICA-50-S4-sequencia-seed2022",
+      "seed": 6,
+      "inicio_utc": "2026-10-25T15:35:42.100813+00:00",
+      "status": "concluida",
+      "json": "execucoes/02-seed6.json",
+      "tempo_parede_s": 9.37665970006492
+    },
+    {
+      "instancia": "SINTETICA-50-S4-sequencia-seed2022",
+      "seed": 7,
+      "inicio_utc": "2026-10-25T15:35:51.517880+00:00",
+      "status": "concluida",
+      "json": "execucoes/02-seed7.json",
+      "tempo_parede_s": 9.151906699989922
+    },
+    {
+      "instancia": "SINTETICA-50-S4-sequencia-seed2022",
+      "seed": 8,
+      "inicio_utc": "2026-10-25T15:36:00.710310+00:00",
+      "status": "concluida",
+      "json": "execucoes/02-seed8.json",
+      "tempo_parede_s": 9.383379700011574
+    },
+    {
+      "instancia": "SINTETICA-50-S4-sequencia-seed2022",
+      "seed": 9,
+      "inicio_utc": "2026-10-25T15:36:10.141189+00:00",
+      "status": "concluida",
+      "json": "execucoes/02-seed9.json",
+      "tempo_parede_s": 8.738013499998488
+    },
+    {
+      "instancia": "SINTETICA-50-S4-simples-seed2022",
+      "seed": 0,
+      "inicio_utc": "2026-10-25T15:36:18.922353+00:00",
+      "status": "concluida",
+      "json": "execucoes/03-seed0.json",
+      "tempo_parede_s": 6.92347250005696
+    },
+    {
+      "instancia": "SINTETICA-50-S4-simples-seed2022",
+      "seed": 1,
+      "inicio_utc": "2026-10-25T15:36:25.896594+00:00",
+      "status": "concluida",
+      "json": "execucoes/03-seed1.json",
+      "tempo_parede_s": 6.749096599989571
+    },
+    {
+      "instancia": "SINTETICA-50-S4-simples-seed2022",
+      "seed": 2,
+      "inicio_utc": "2026-10-25T15:36:32.690997+00:00",
+      "status": "concluida",
+      "json": "execucoes/03-seed2.json",
+      "tempo_parede_s": 6.805925199994817
+    },
+    {
+      "instancia": "SINTETICA-50-S4-simples-seed2022",
+      "seed": 3,
+      "inicio_utc": "2026-10-25T15:36:39.539921+00:00",
+      "status": "concluida",
+      "json": "execucoes/03-seed3.json",
+      "tempo_parede_s": 6.783760800026357
+    },
+    {
+      "instancia": "SINTETICA-50-S4-simples-seed2022",
+      "seed": 4,
+      "inicio_utc": "2026-10-25T15:36:46.375237+00:00",
+      "status": "concluida",
+      "json": "execucoes/03-seed4.json",
+      "tempo_parede_s": 6.889004100114107
+    },
+    {
+      "instancia": "SINTETICA-50-S4-simples-seed2022",
+      "seed": 5,
+      "inicio_utc": "2026-10-25T15:36:53.320449+00:00",
+      "status": "concluida",
+      "json": "execucoes/03-seed5.json",
+      "tempo_parede_s": 6.8319786000065506
+    },
+    {
+      "instancia": "SINTETICA-50-S4-simples-seed2022",
+      "seed": 6,
+      "inicio_utc": "2026-10-25T15:37:00.204097+00:00",
+      "status": "concluida",
+      "json": "execucoes/03-seed6.json",
+      "tempo_parede_s": 6.725585900014266
+    },
+    {
+      "instancia": "SINTETICA-50-S4-simples-seed2022",
+      "seed": 7,
+      "inicio_utc": "2026-10-25T15:37:06.971061+00:00",
+      "status": "concluida",
+      "json": "execucoes/03-seed7.json",
+      "tempo_parede_s": 6.821890100021847
+    },
+    {
+      "instancia": "SINTETICA-50-S4-simples-seed2022",
+      "seed": 8,
+      "inicio_utc": "2026-10-25T15:37:13.840747+00:00",
+      "status": "concluida",
+      "json": "execucoes/03-seed8.json",
+      "tempo_parede_s": 6.814712700084783
+    },
+    {
+      "instancia": "SINTETICA-50-S4-simples-seed2022",
+      "seed": 9,
+      "inicio_utc": "2026-10-25T15:37:20.695762+00:00",
+      "status": "concluida",
+      "json": "execucoes/03-seed9.json",
+      "tempo_parede_s": 7.079732900019735
+    },
+    {
+      "instancia": "SINTETICA-100-S5-sequencia-seed2024",
+      "seed": 0,
+      "inicio_utc": "2026-10-25T15:37:27.817058+00:00",
+      "status": "concluida",
+      "json": "execucoes/04-seed0.json",
+      "tempo_parede_s": 40.340113100013696
+    },
+    {
+      "instancia": "SINTETICA-100-S5-sequencia-seed2024",
+      "seed": 1,
+      "inicio_utc": "2026-10-25T15:38:08.205214+00:00",
+      "status": "concluida",
+      "json": "execucoes/04-seed1.json",
+      "tempo_parede_s": 41.069655400002375
+    },
+    {
+      "instancia": "SINTETICA-100-S5-sequencia-seed2024",
+      "seed": 2,
+      "inicio_utc": "2026-10-25T15:38:49.335025+00:00",
+      "status": "concluida",
+      "json": "execucoes/04-seed2.json",
+      "tempo_parede_s": 42.056655999971554
+    },
+    {
+      "instancia": "SINTETICA-100-S5-sequencia-seed2024",
+      "seed": 3,
+      "inicio_utc": "2026-10-25T15:39:31.447779+00:00",
+      "status": "concluida",
+      "json": "execucoes/04-seed3.json",
+      "tempo_parede_s": 41.05355850001797
+    },
+    {
+      "instancia": "SINTETICA-100-S5-sequencia-seed2024",
+      "seed": 4,
+      "inicio_utc": "2026-10-25T15:40:12.552265+00:00",
+      "status": "concluida",
+      "json": "execucoes/04-seed4.json",
+      "tempo_parede_s": 40.37137489998713
+    },
+    {
+      "instancia": "SINTETICA-100-S5-sequencia-seed2024",
+      "seed": 5,
+      "inicio_utc": "2026-10-25T15:40:52.981343+00:00",
+      "status": "concluida",
+      "json": "execucoes/04-seed5.json",
+      "tempo_parede_s": 41.69683310005348
+    },
+    {
+      "instancia": "SINTETICA-100-S5-sequencia-seed2024",
+      "seed": 6,
+      "inicio_utc": "2026-10-25T15:41:34.727992+00:00",
+      "status": "concluida",
+      "json": "execucoes/04-seed6.json",
+      "tempo_parede_s": 41.78621920000296
+    },
+    {
+      "instancia": "SINTETICA-100-S5-sequencia-seed2024",
+      "seed": 7,
+      "inicio_utc": "2026-10-25T15:42:16.563104+00:00",
+      "status": "concluida",
+      "json": "execucoes/04-seed7.json",
+      "tempo_parede_s": 40.21406460006256
+    },
+    {
+      "instancia": "SINTETICA-100-S5-sequencia-seed2024",
+      "seed": 8,
+      "inicio_utc": "2026-10-25T15:42:56.824660+00:00",
+      "status": "concluida",
+      "json": "execucoes/04-seed8.json",
+      "tempo_parede_s": 40.05853909999132
+    },
+    {
+      "instancia": "SINTETICA-100-S5-sequencia-seed2024",
+      "seed": 9,
+      "inicio_utc": "2026-10-25T15:43:36.941142+00:00",
+      "status": "concluida",
+      "json": "execucoes/04-seed9.json",
+      "tempo_parede_s": 39.8282091000583
+    },
+    {
+      "instancia": "SINTETICA-100-S5-simples-seed2024",
+      "seed": 0,
+      "inicio_utc": "2026-10-25T15:44:16.820596+00:00",
+      "status": "concluida",
+      "json": "execucoes/05-seed0.json",
+      "tempo_parede_s": 28.02108919993043
+    },
+    {
+      "instancia": "SINTETICA-100-S5-simples-seed2024",
+      "seed": 1,
+      "inicio_utc": "2026-10-25T15:44:44.898646+00:00",
+      "status": "concluida",
+      "json": "execucoes/05-seed1.json",
+      "tempo_parede_s": 28.09330409998074
+    },
+    {
+      "instancia": "SINTETICA-100-S5-simples-seed2024",
+      "seed": 2,
+      "inicio_utc": "2026-10-25T15:45:13.054101+00:00",
+      "status": "concluida",
+      "json": "execucoes/05-seed2.json",
+      "tempo_parede_s": 28.365160499932244
+    },
+    {
+      "instancia": "SINTETICA-100-S5-simples-seed2024",
+      "seed": 3,
+      "inicio_utc": "2026-10-25T15:45:41.478684+00:00",
+      "status": "concluida",
+      "json": "execucoes/05-seed3.json",
+      "tempo_parede_s": 30.741258200025186
+    },
+    {
+      "instancia": "SINTETICA-100-S5-simples-seed2024",
+      "seed": 4,
+      "inicio_utc": "2026-10-25T15:46:12.313467+00:00",
+      "status": "concluida",
+      "json": "execucoes/05-seed4.json",
+      "tempo_parede_s": 44.32345170003828
+    },
+    {
+      "instancia": "SINTETICA-100-S5-simples-seed2024",
+      "seed": 5,
+      "inicio_utc": "2026-10-25T15:46:56.689957+00:00",
+      "status": "concluida",
+      "json": "execucoes/05-seed5.json",
+      "tempo_parede_s": 30.946953500038944
+    },
+    {
+      "instancia": "SINTETICA-100-S5-simples-seed2024",
+      "seed": 6,
+      "inicio_utc": "2026-10-25T15:47:27.657533+00:00",
+      "status": "concluida",
+      "json": "execucoes/05-seed6.json",
+      "tempo_parede_s": 34.333855899982154
+    },
+    {
+      "instancia": "SINTETICA-100-S5-simples-seed2024",
+      "seed": 7,
+      "inicio_utc": "2026-10-25T15:48:02.061801+00:00",
+      "status": "concluida",
+      "json": "execucoes/05-seed7.json",
+      "tempo_parede_s": 33.63403670000844
+    },
+    {
+      "instancia": "SINTETICA-100-S5-simples-seed2024",
+      "seed": 8,
+      "inicio_utc": "2026-10-25T15:48:35.727284+00:00",
+      "status": "concluida",
+      "json": "execucoes/05-seed8.json",
+      "tempo_parede_s": 33.19771049998235
+    },
+    {
+      "instancia": "SINTETICA-100-S5-simples-seed2024",
+      "seed": 9,
+      "inicio_utc": "2026-10-25T15:49:08.985155+00:00",
+      "status": "concluida",
+      "json": "execucoes/05-seed9.json",
+      "tempo_parede_s": 29.641611899947748
+    },
+    {
+      "instancia": "SINTETICA-200-S10-sequencia-seed2026",
+      "seed": 0,
+      "inicio_utc": "2026-10-25T15:49:38.717367+00:00",
+      "status": "concluida",
+      "json": "execucoes/06-seed0.json",
+      "tempo_parede_s": 107.16659459995572
+    },
+    {
+      "instancia": "SINTETICA-200-S10-sequencia-seed2026",
+      "seed": 1,
+      "inicio_utc": "2026-10-25T15:51:26.007704+00:00",
+      "status": "concluida",
+      "json": "execucoes/06-seed1.json",
+      "tempo_parede_s": 103.36718719999772
+    },
+    {
+      "instancia": "SINTETICA-200-S10-sequencia-seed2026",
+      "seed": 2,
+      "inicio_utc": "2026-10-25T15:53:09.469665+00:00",
+      "status": "concluida",
+      "json": "execucoes/06-seed2.json",
+      "tempo_parede_s": 91.80229929997586
+    },
+    {
+      "instancia": "SINTETICA-200-S10-sequencia-seed2026",
+      "seed": 3,
+      "inicio_utc": "2026-10-25T15:54:41.389739+00:00",
+      "status": "concluida",
+      "json": "execucoes/06-seed3.json",
+      "tempo_parede_s": 105.84454029996414
+    },
+    {
+      "instancia": "SINTETICA-200-S10-sequencia-seed2026",
+      "seed": 4,
+      "inicio_utc": "2026-10-25T15:56:27.450618+00:00",
+      "status": "concluida",
+      "json": "execucoes/06-seed4.json",
+      "tempo_parede_s": 91.79662309994455
+    },
+    {
+      "instancia": "SINTETICA-200-S10-sequencia-seed2026",
+      "seed": 5,
+      "inicio_utc": "2026-10-25T15:57:59.337051+00:00",
+      "status": "concluida",
+      "json": "execucoes/06-seed5.json",
+      "tempo_parede_s": 81.07652470003814
+    },
+    {
+      "instancia": "SINTETICA-200-S10-sequencia-seed2026",
+      "seed": 6,
+      "inicio_utc": "2026-10-25T15:59:20.516884+00:00",
+      "status": "concluida",
+      "json": "execucoes/06-seed6.json",
+      "tempo_parede_s": 79.80106050008908
+    },
+    {
+      "instancia": "SINTETICA-200-S10-sequencia-seed2026",
+      "seed": 7,
+      "inicio_utc": "2026-10-25T16:00:40.462524+00:00",
+      "status": "concluida",
+      "json": "execucoes/06-seed7.json",
+      "tempo_parede_s": 81.2326114999596
+    },
+    {
+      "instancia": "SINTETICA-200-S10-sequencia-seed2026",
+      "seed": 8,
+      "inicio_utc": "2026-10-25T16:02:01.789190+00:00",
+      "status": "concluida",
+      "json": "execucoes/06-seed8.json",
+      "tempo_parede_s": 88.63479839998763
+    },
+    {
+      "instancia": "SINTETICA-200-S10-sequencia-seed2026",
+      "seed": 9,
+      "inicio_utc": "2026-10-25T16:03:30.515402+00:00",
+      "status": "concluida",
+      "json": "execucoes/06-seed9.json",
+      "tempo_parede_s": 90.23734579992015
+    },
+    {
+      "instancia": "SINTETICA-200-S10-simples-seed2026",
+      "seed": 0,
+      "inicio_utc": "2026-10-25T16:05:00.838981+00:00",
+      "status": "concluida",
+      "json": "execucoes/07-seed0.json",
+      "tempo_parede_s": 64.53641139995307
+    },
+    {
+      "instancia": "SINTETICA-200-S10-simples-seed2026",
+      "seed": 1,
+      "inicio_utc": "2026-10-25T16:06:05.464248+00:00",
+      "status": "concluida",
+      "json": "execucoes/07-seed1.json",
+      "tempo_parede_s": 64.27768339996692
+    },
+    {
+      "instancia": "SINTETICA-200-S10-simples-seed2026",
+      "seed": 2,
+      "inicio_utc": "2026-10-25T16:07:09.835805+00:00",
+      "status": "concluida",
+      "json": "execucoes/07-seed2.json",
+      "tempo_parede_s": 57.35808480007108
+    },
+    {
+      "instancia": "SINTETICA-200-S10-simples-seed2026",
+      "seed": 3,
+      "inicio_utc": "2026-10-25T16:08:07.278416+00:00",
+      "status": "concluida",
+      "json": "execucoes/07-seed3.json",
+      "tempo_parede_s": 51.89064299990423
+    },
+    {
+      "instancia": "SINTETICA-200-S10-simples-seed2026",
+      "seed": 4,
+      "inicio_utc": "2026-10-25T16:08:59.258067+00:00",
+      "status": "concluida",
+      "json": "execucoes/07-seed4.json",
+      "tempo_parede_s": 52.060213599936105
+    },
+    {
+      "instancia": "SINTETICA-200-S10-simples-seed2026",
+      "seed": 5,
+      "inicio_utc": "2026-10-25T16:09:51.400815+00:00",
+      "status": "concluida",
+      "json": "execucoes/07-seed5.json",
+      "tempo_parede_s": 51.83402389998082
+    },
+    {
+      "instancia": "SINTETICA-200-S10-simples-seed2026",
+      "seed": 6,
+      "inicio_utc": "2026-10-25T16:10:43.324262+00:00",
+      "status": "concluida",
+      "json": "execucoes/07-seed6.json",
+      "tempo_parede_s": 53.25657239998691
+    },
+    {
+      "instancia": "SINTETICA-200-S10-simples-seed2026",
+      "seed": 7,
+      "inicio_utc": "2026-10-25T16:11:36.662479+00:00",
+      "status": "concluida",
+      "json": "execucoes/07-seed7.json",
+      "tempo_parede_s": 51.81635989993811
+    },
+    {
+      "instancia": "SINTETICA-200-S10-simples-seed2026",
+      "seed": 8,
+      "inicio_utc": "2026-10-25T16:12:28.564735+00:00",
+      "status": "concluida",
+      "json": "execucoes/07-seed8.json",
+      "tempo_parede_s": 52.326210999977775
+    },
+    {
+      "instancia": "SINTETICA-200-S10-simples-seed2026",
+      "seed": 9,
+      "inicio_utc": "2026-10-25T16:13:20.970799+00:00",
+      "status": "concluida",
+      "json": "execucoes/07-seed9.json",
+      "tempo_parede_s": 51.88155540009029
+    }
+  ],
+  "fim_utc": "2026-10-25T16:14:12.958748+00:00",
+  "execucoes_concluidas": 80,
+  "tempo_parede_total_s": 2381.8544398999074,
+  "tempo_algoritmos_total_s": 2338.7245053006336
+}

@@ -1,0 +1,65 @@
+{
+  "tipo_dado": "MEDICAO_EXPERIMENTO_PRINCIPAL_REDUZIDO",
+  "comparacoes": 80,
+  "instancias": 8,
+  "iteracoes": 1000,
+  "alpha": 0.5,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "execucoes_com_melhoria": 19,
+  "execucoes_sem_melhoria": 61,
+  "percentual_execucoes_com_melhoria": 23.75,
+  "media_reducao_percentual_pareada": 0.34417590675023546,
+  "mediana_reducao_percentual_pareada": 0.0,
+  "tempo_grasp_soma_s": 2043.905548400944,
+  "tempo_vnd_soma_s": 294.8189568996895,
+  "tempo_algoritmos_soma_s": 2338.7245053006336,
+  "tempo_parede_total_s": 2381.8544398999074,
+  "custo_adicional_global_percentual": 14.42429456343235,
+  "maior_reducao_individual_percentual": 2.4390243902439024,
+  "melhores_casos_empatados": [
+    {
+      "instancia": "SINTETICA-200-S10-sequencia-seed2026",
+      "seed": 1,
+      "makespan_grasp": 164,
+      "makespan_vnd": 160,
+      "reducao_percentual": 2.4390243902439024,
+      "tempo_grasp_s": 72.86232870002277,
+      "tempo_adicional_vnd_s": 29.929171700030565,
+      "tempo_total_s": 102.79150040005334,
+      "realocacoes_aceitas": 2
+    }
+  ],
+  "menor_reducao_positiva": {
+    "instancia": "SINTETICA-200-S10-sequencia-seed2026",
+    "seed": 2,
+    "makespan_grasp": 165,
+    "makespan_vnd": 164,
+    "reducao_percentual": 0.6060606060606061,
+    "tempo_grasp_s": 70.44945539999753,
+    "tempo_adicional_vnd_s": 20.84231690003071,
+    "tempo_total_s": 91.29177230002824,
+    "realocacoes_aceitas": 1
+  },
+  "caso_sem_melhoria_maior_tempo_vnd": {
+    "instancia": "SINTETICA-200-S10-simples-seed2026",
+    "seed": 0,
+    "makespan_grasp": 99,
+    "makespan_vnd": 99,
+    "reducao_percentual": 0.0,
+    "tempo_grasp_s": 54.262383299996145,
+    "tempo_adicional_vnd_s": 9.829160899971612,
+    "tempo_total_s": 64.09154419996776,
+    "realocacoes_aceitas": 0
+  }
+}

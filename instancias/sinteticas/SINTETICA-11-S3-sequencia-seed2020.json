@@ -1,0 +1,211 @@
+{
+  "identificador": "SINTETICA-11-S3-sequencia-seed2020",
+  "numero_salas": 3,
+  "unidade_minutos": 30,
+  "origem": "SINTETICA",
+  "cirurgias": [
+    {
+      "id": "C0001",
+      "duracao": 10
+    },
+    {
+      "id": "C0002",
+      "duracao": 10
+    },
+    {
+      "id": "C0003",
+      "duracao": 3
+    },
+    {
+      "id": "C0004",
+      "duracao": 11
+    },
+    {
+      "id": "C0005",
+      "duracao": 8
+    },
+    {
+      "id": "C0006",
+      "duracao": 8
+    },
+    {
+      "id": "C0007",
+      "duracao": 8
+    },
+    {
+      "id": "C0008",
+      "duracao": 6
+    },
+    {
+      "id": "C0009",
+      "duracao": 7
+    },
+    {
+      "id": "C0010",
+      "duracao": 9
+    },
+    {
+      "id": "C0011",
+      "duracao": 3
+    }
+  ],
+  "preparacao": [
+    [
+      0,
+      9,
+      1,
+      7,
+      3,
+      3,
+      6,
+      10,
+      3,
+      9,
+      2
+    ],
+    [
+      7,
+      0,
+      7,
+      1,
+      10,
+      2,
+      7,
+      9,
+      8,
+      7,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      5,
+      3,
+      1,
+      8,
+      1,
+      9,
+      4,
+      2
+    ],
+    [
+      0,
+      10,
+      8,
+      0,
+      4,
+      7,
+      3,
+      4,
+      8,
+      10,
+      10
+    ],
+    [
+      7,
+      3,
+      8,
+      0,
+      0,
+      9,
+      8,
+      9,
+      10,
+      3,
+      3
+    ],
+    [
+      9,
+      4,
+      4,
+      2,
+      6,
+      0,
+      6,
+      9,
+      4,
+      2,
+      7
+    ],
+    [
+      5,
+      10,
+      1,
+      1,
+      3,
+      9,
+      0,
+      3,
+      8,
+      8,
+      8
+    ],
+    [
+      10,
+      0,
+      8,
+      1,
+      2,
+      0,
+      5,
+      0,
+      3,
+      8,
+      7
+    ],
+    [
+      1,
+      6,
+      10,
+      3,
+      7,
+      5,
+      10,
+      7,
+      0,
+      1,
+      3
+    ],
+    [
+      5,
+      5,
+      0,
+      8,
+      7,
+      9,
+      10,
+      9,
+      9,
+      0,
+      10
+    ],
+    [
+      8,
+      6,
+      6,
+      10,
+      4,
+      10,
+      10,
+      1,
+      5,
+      1,
+      0
+    ]
+  ],
+  "metadados": {
+    "seed": 2020,
+    "perfil": "sequencia",
+    "distribuicao": "uniforme discreta independente (escolha deste projeto)",
+    "intervalo_duracao": [
+      1,
+      12
+    ],
+    "intervalo_preparacao": [
+      0,
+      10
+    ],
+    "diagonal_preparacao": 0
+  }
+}

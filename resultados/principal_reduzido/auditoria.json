@@ -1,0 +1,58 @@
+{
+  "status": "APROVADA",
+  "comparacoes_auditadas": 80,
+  "testes_antes_execucao": "85 passed in 2.14s",
+  "mesmos_algoritmos_do_piloto": true,
+  "mesmas_instancias_do_piloto": true,
+  "arquivos_piloto_preservados": true,
+  "objetivos_reavaliados": true,
+  "csv_detalhado_sha256": "67ba65e2147fe7052d99bddb4b26fdcd67b587750d6cd70b10a9c500fa5d4b22",
+  "csv_resumo_sha256": "16b4a689ab7fe2464b783aaef22c9471e5103da3bc75e7c1600b4a78c5428bae",
+  "manifesto_sha256": "887f8ed2b68c3b55de5b9c8c62271aa4f42462f21e71bac9e1c362ae4e906e16",
+  "script_analise_sha256": "16e0ae25b5b241c52bb35e79112cb6cf07728dcb8489f5f4d16f8d50ca5a5d24",
+  "figuras": {
+    "matplotlib": "3.11.2",
+    "dpi_solicitado": 600,
+    "figuras": {
+      "qualidade_pareada.png": {
+        "pixels": [
+          4271,
+          3353
+        ],
+        "dpi": [
+          599.9988,
+          599.9988
+        ],
+        "sha256": "d2d40e4b05b4caddd3f8f7e8a44b4706b113738a9b17511ca4fd772e292f76be"
+      },
+      "tempo_comparativo.png": {
+        "pixels": [
+          4278,
+          3769
+        ],
+        "dpi": [
+          599.9988,
+          599.9988
+        ],
+        "sha256": "878854186ef3732a0399e896543add682c0a80c6410ed5e3bb0403128316e71e"
+      },
+      "reducao_percentual.png": {
+        "pixels": [
+          4276,
+          2561
+        ],
+        "dpi": [
+          599.9988,
+          599.9988
+        ],
+        "sha256": "a2de0f9caac42be5d93245d603514852503cff187f40ab3661734ab5304923ff"
+      }
+    }
+  },
+  "testes_finais": {
+    "comando": ".venv/Scripts/python.exe -m pytest -q",
+    "resultado": "88 passed in 2.61s",
+    "aprovados": 88,
+    "tempo_s": 2.61
+  }
+}

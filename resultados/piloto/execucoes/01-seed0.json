@@ -1,0 +1,65 @@
+{
+  "instancia": "SINTETICA-11-S3-simples-seed2020",
+  "origem": "SINTETICA",
+  "grasp": {
+    "melhor_solucao": [
+      [
+        "C0001",
+        "C0008",
+        "C0010",
+        "C0011",
+        "C0009"
+      ],
+      [
+        "C0003",
+        "C0002",
+        "C0007"
+      ],
+      [
+        "C0006",
+        "C0005",
+        "C0004"
+      ]
+    ],
+    "makespan": 21,
+    "seed": 0,
+    "iteracoes": 100,
+    "alpha": 0.5,
+    "tempo_execucao": 0.024983800016343594,
+    "avaliacoes_n1": 2506,
+    "trocas_n1": 189
+  },
+  "vnd": {
+    "melhor_solucao": [
+      [
+        "C0001",
+        "C0008",
+        "C0010",
+        "C0011",
+        "C0009"
+      ],
+      [
+        "C0003",
+        "C0002",
+        "C0007"
+      ],
+      [
+        "C0006",
+        "C0005",
+        "C0004"
+      ]
+    ],
+    "makespan": 21,
+    "makespan_inicial": 21,
+    "tempo_execucao": 0.0026812999276444316,
+    "realocacoes_aceitas": 0,
+    "avaliacoes_n2": 100,
+    "avaliacoes_n1": 0,
+    "trocas_n1": 0,
+    "historico_makespan": [
+      21
+    ]
+  },
+  "tempo_total": 0.027665099943988025,
+  "reducao_percentual": 0.0
+}

@@ -1,0 +1,16 @@
+{
+  "tipo_dado": "PROJECAO_NAO_MEDIDA",
+  "metodo": "interpolacao_taxas_por_carga_por_perfil",
+  "iteracoes": 1000,
+  "execucoes_por_instancia": 30,
+  "instancias": 14,
+  "grasp_s": 9640.90045777827,
+  "vnd_s": 1182.8840470393723,
+  "total_s": 10823.784504817642,
+  "faixa_seeds_min_s": 9851.19321686378,
+  "faixa_seeds_max_s": 11675.625749746701,
+  "cenario_vnd_10x_s": 21469.740928171992,
+  "reserva_2x_total_s": 21647.569009635285,
+  "reduzido_8_instancias_10_seeds_1000_iteracoes_s": 2196.3168456580024,
+  "reduzido_reserva_2x_s": 4392.633691316005
+}

@@ -1,0 +1,13 @@
+{
+  "identificador": "SINTETICA-MANUAL-3-S2",
+  "numero_salas": 2,
+  "unidade_minutos": 30,
+  "origem": "SINTETICA",
+  "cirurgias": [
+    {"id": "A", "duracao": 4},
+    {"id": "B", "duracao": 3},
+    {"id": "C", "duracao": 2}
+  ],
+  "preparacao": [[0, 0, 0], [0, 0, 0], [0, 0, 0]],
+  "metadados": {"descricao": "Exemplo didático especificado no pedido; não é dado hospitalar"}
+}
